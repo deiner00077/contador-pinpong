@@ -1,0 +1,107 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Outfit';
+    box-sizing: border-box;
+}
+#ping_pong{
+    width: 1100px;
+    height: 800px;
+    margin: 0 auto;
+    background-image:url(/image/pinpong1.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 100px; 
+}
+.poinst{
+    font-size: 30px;
+    font-weight: 600;
+    color:floralwhite;
+    text-align: center;
+    
+
+}
+.containers{
+    width: 500px;
+    height: 100px;
+    background-color:blue;
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 10px;
+}
+#counter_label{
+    font-size: 40px;
+    font-weight: 600;
+    color:black;
+   
+}
+input{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+    font-weight: 600;
+}
+#counter1 {
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+}
+#counter2{
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+   
+
+}
+.buttons{
+    width: 600px;
+    margin: 0 auto;
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 20px;
+}
+.buttonPlayer1{
+   width: 200px;
+   height: 100px;
+   font-size: 25px;
+   font-weight: 600;
+   
+   color: #fff;
+   background-color: blue;
+   border-radius: 10px;
+
+}
+.buttonPlayer2{
+    width: 200px;
+    height: 100px;
+    font-size: 25px;
+    font-weight: 600;
+    
+    color:black(255, 255, 255, 0.919);
+    background-color: rgb(111, 255, 0);
+    border-radius: 10px;
+
+ }
+ .buttonReset{
+    width: 200px;
+    height: 100px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+
+
+ }
